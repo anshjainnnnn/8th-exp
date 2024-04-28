@@ -1,0 +1,11 @@
+docker run -it ubuntu /bin/bash
+root@f36edcaf861b:/# cd /root
+root@f36edcaf861b:~# mkdir hihi
+root@f36edcaf861b:~# cd hihi
+root@f36edcaf861b:~/hihi# echo "hi!" > hihi.txt
+root@f36edcaf861b:~/hihi# exit
+
+   docker ps
+  docker commit
+  docker commit f36edcaf861b prapti2020/ubuntu-custom:latest
+  docker push prapti2020/ubuntu-custom:latest
